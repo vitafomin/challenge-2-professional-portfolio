@@ -61,6 +61,10 @@ nav a{
     color: aliceblue;
 }
 
+nav a:hover{
+    color: rgb(110, 141, 168);
+}
+
 img{
     display: flex;
     width: 100%;
@@ -79,6 +83,18 @@ img{
     width: 70%;
     margin-left: 300px;
     margin-top: -150;
+    color:
+}
+#mywork img{
+    width: 800px;
+    margin: 20 5;
+    border: 4px solid rgb(103, 93, 80);
+    
+}
+
+#mywork img:hover {
+    cursor:pointer;
+    zoom: 105%; 
 }
 
 #mycon{
@@ -92,10 +108,18 @@ img{
 }
 
 #mycon a{
-    color: black;
+    color: rgb(103, 93, 80);
     text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+
+#mycon a:hover{
+    color: rgb(130, 124, 116);
+}
+
+/* #mycon a::after{
+    content: icon #467646;
+} */
 
 #contact{
     width: 70%;
