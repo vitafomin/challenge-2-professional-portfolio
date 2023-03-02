@@ -85,6 +85,7 @@ img{
     margin-top: -150;
     color:
 }
+
 #mywork img{
     width: 800px;
     margin: 20 5;
@@ -92,9 +93,9 @@ img{
     
 }
 
-#mywork img:hover {
-    cursor:pointer;
-    zoom: 105%; 
+#mywork a:hover {
+    cursor: pointer;
+    zoom: 103%;
 }
 
 #mycon{
