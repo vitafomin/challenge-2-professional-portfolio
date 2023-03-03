@@ -13,12 +13,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgb(225, 224, 220);
 }
 
 .head {
   height: 30px;
   width: 100%;
-  background-color: rgb(55, 62, 60);
+  background-color: rgb(131, 117, 94);
   color: black;
   font-family: "Times New Roman", Times, serif;
 }
@@ -36,7 +37,7 @@ h2 {
   position: relative;
   left: -30px;
   margin-inline-start: 1px;
-  background-color: aliceblue;
+  background-color: rgb(234, 233, 229);
 }
 
 nav ul {
@@ -49,7 +50,7 @@ nav ul {
   font-style: italic;
   text-decoration: underline;
   text-decoration-color: black;
-  color: aliceblue;
+  color: rgb(234, 233, 229);
   width: 350px;
   padding: 20px;
   height: 10px;
@@ -58,11 +59,11 @@ nav ul {
 }
 
 nav a {
-  color: aliceblue;
+  color: rgb(234, 233, 229);;
 }
 
 nav a:hover {
-  color: rgb(110, 141, 168);
+  color: rgb(107, 95, 67);
 }
 
 
@@ -76,21 +77,19 @@ img {
 
 #about {
   display: flex;
+  height: 215px;
 }
 
 .about-title {
   border-right: 3px solid black;
   margin-top: 15;
-
+  
 }
 
 #mypara {
   width: 70%;
   margin-left: 30px;
-  margin-top: 20px;
-
-  /* margin-left: 300px;
-    margin-top: -160; */
+  margin-top: 25px;
 }
 
 #work {
@@ -107,12 +106,9 @@ img {
 #mywork {
   width: 70%;
     margin-left: 70px; 
-  /* color: */
 }
 
 #mywork img {
-  /* width: 800px;  */
-/*  width: 30%;  */
   margin: 20 5;
   border: 4px solid rgb(103, 93, 80);
 }
@@ -131,6 +127,105 @@ img {
     height: 200px;
 }
 
+#float-img-1 {
+    width: 120;
+    height: 30;
+    text-align: center;
+    padding: 8;
+    text-decoration: none;
+    position: relative;
+    position: absolute;
+    bottom: -200;
+    left: 353;
+    background-color: rgb(103, 93, 80);
+    color: black;
+    font-size: 18;
+}
+
+#float-img-1 p {
+    margin-top: 0;
+    font-size: 10;
+}
+
+#float-img-2 {
+    width: 120;
+    height: 30;
+    text-align: center;
+    padding: 8;
+    text-decoration: none;
+    position: relative;
+    position: absolute;
+    bottom: -460;
+    left: 353;
+    background-color: rgb(103, 93, 80);
+    color: black;
+    font-size: 17;
+}
+
+#float-img-2 p {
+    margin-top: 0;
+    font-size: 10;
+}
+
+#float-img-3 {
+    width: 105;
+    height: 30;
+    text-align: center;
+    padding: 8;
+    text-decoration: none;
+    position: relative;
+    position: absolute;
+    bottom: -460;
+    left: 771;
+    background-color: rgb(103, 93, 80);
+    color: black;
+    font-size: 17;
+}
+
+#float-img-3 p {
+    margin-top: 0;
+    font-size: 10;
+}
+
+#float-img-4 {
+    width: 120;
+    height: 30;
+    text-align: center;
+    padding: 8;
+    text-decoration: none;
+    position: relative;
+    position: absolute;
+    bottom: -700;
+    left: 353;
+    background-color: rgb(103, 93, 80);
+    color: black;
+    font-size: 18;
+}
+
+#float-img-4 p {
+    margin-top: 0;
+    font-size: 10;
+}
+
+#float-img-5 {
+    width: 120;
+    height: 30;
+    text-align: center;
+    padding: 8;
+    text-decoration: none;
+    position: relative;
+    position: absolute;
+    bottom: -700;
+    left: 771;
+    background-color: rgb(103, 93, 80);
+    color: black;
+    font-size: 18;
+}
+
+#float-img-5 p {
+    margin-top: 0;
+    font-size: 10;
+}
 
 #mywork a:hover {
   cursor: pointer;
@@ -167,24 +262,20 @@ img {
   color: rgb(130, 124, 116);
 }
 
-/* #mycon a::after{
-    content: icon #467646;
-} */
-
 #contact {
   width: 70%;
-  margin: 20 0;
+  margin-top: 20;
 }
 
 .float {
-  display: flex;
+  /* display: flex; */
   font-size: xx-large;
-  /*  background-color: ;   */
+  /*  background-color: ;  I like the look without the background color */
   color: rgb(103, 93, 80);
   position: relative;
   position: absolute;
-  right: 150px;
-  bottom: 250px;
+  right: 155px;
+  bottom: 580px;
 }
 
 html {
