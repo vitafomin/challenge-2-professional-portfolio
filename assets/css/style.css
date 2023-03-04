@@ -137,7 +137,7 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -120;
+    bottom: -350;
     left: 344;
     background-color: rgb(103, 93, 80);
     color: black;
@@ -157,7 +157,7 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -550;
+    bottom: -660;
     left: 345;
     background-color: rgb(103, 93, 80);
     color: black;
@@ -177,7 +177,7 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -550;
+    bottom: -660;
     left: 813;
     background-color: rgb(103, 93, 80);
     color: black;
@@ -197,7 +197,7 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -850;
+    bottom: -960;
     left: 345;
     background-color: rgb(103, 93, 80);
     color: black;
@@ -217,7 +217,7 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -850;
+    bottom: -960;
     left: 813;
     background-color: rgb(103, 93, 80);
     color: black;
