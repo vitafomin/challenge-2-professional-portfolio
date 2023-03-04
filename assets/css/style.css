@@ -9,6 +9,7 @@ header {
 
 body {
   width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,15 +19,14 @@ body {
 
 .head {
   height: 30px;
-  width: 100%;
-  background-color: rgb(131, 117, 94);
+  width: 98%;
+  background-color: rgb(145, 138, 127);
   color: black;
   font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
   width: 30%;
-  padding: auto;
   margin: 90 80;
 }
 
@@ -106,6 +106,7 @@ img {
 #mywork {
   width: 70%;
     margin-left: 70px; 
+    margin-right: ;
 }
 
 #mywork img {
@@ -114,19 +115,20 @@ img {
 }
 
 .big {
-    width: 816px;
+    width: 917px; 
 }
 
 .small {
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; 
+    flex-wrap: wrap; 
+    
 }
 
 .small a img {
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
 }
-
+ 
 #float-img-1 {
     width: 120;
     height: 30;
@@ -135,8 +137,8 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -200;
-    left: 353;
+    bottom: -120;
+    left: 344;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 18;
@@ -155,8 +157,8 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -460;
-    left: 353;
+    bottom: -550;
+    left: 345;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 17;
@@ -175,8 +177,8 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -460;
-    left: 771;
+    bottom: -550;
+    left: 813;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 17;
@@ -195,8 +197,8 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -700;
-    left: 353;
+    bottom: -850;
+    left: 345;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 18;
@@ -215,8 +217,8 @@ img {
     text-decoration: none;
     position: relative;
     position: absolute;
-    bottom: -700;
-    left: 771;
+    bottom: -850;
+    left: 813;
     background-color: rgb(103, 93, 80);
     color: black;
     font-size: 18;
@@ -225,11 +227,11 @@ img {
 #float-img-5 p {
     margin-top: 0;
     font-size: 10;
-}
+} 
 
 #mywork a:hover {
   cursor: pointer;
-  zoom: 103%;
+  zoom: 101%; 
 }
 
 #contact {
@@ -241,6 +243,7 @@ img {
 .contact-title {
     border-right: 3px solid black;
     margin-left: -18;
+    margin-bottom: 4;
 }
 
 #mycon {
@@ -274,10 +277,15 @@ img {
   color: rgb(103, 93, 80);
   position: relative;
   position: absolute;
-  right: 155px;
-  bottom: 580px;
+  right: 180px;
+  bottom: 350px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+
+@media screen and (min-width: ) {
+    
 }
