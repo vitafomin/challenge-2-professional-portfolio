@@ -164,6 +164,7 @@ img {
 }
 
 #float-img-2 p {
+    display: inline;
     margin-top: 0;
     font-size: 10;
 }
@@ -284,7 +285,77 @@ html {
   scroll-behavior: smooth;
 }
 
-
-/* @media screen and (min-width:) {
+@media screen and (max-width: 595px) {
+    #float-img-1 {
+        position: relative;
+        position: absolute;
+        left: 0px;
+    }
     
-} */
+}
+
+@media screen and (max-width: 595px) {
+    #float-img-2 {
+        position: relative;
+        position: absolute;
+        left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1353px) {
+    #float-img-3 {
+        position: relative;
+        position: absolute;
+        bottom: -960px;
+        left: 345px;
+    }
+    
+}
+
+@media screen and (max-width: 595px) {
+    #float-img-3 {
+        position: relative;
+        position: absolute;
+        left: 0px;
+    }
+    
+}
+ 
+@media screen and (max-width: 1353px) {
+    #float-img-4 {
+        position: relative;
+        position: absolute;
+        left: 345px;
+        bottom: -1258px;
+    }
+    
+}
+
+@media screen and (max-width: 595px) {
+    #float-img-4 {
+        position: relative;
+        position: absolute;
+        left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 1353px) {
+    #float-img-5 {
+        position: relative;
+        position: absolute;
+        left: 345px;
+        bottom: -1557px;
+    }
+    
+}
+
+@media screen and (max-width: 595px) {
+    #float-img-5 {
+        position: relative;
+        position: absolute;
+        left: 0px;
+    }
+    
+}
