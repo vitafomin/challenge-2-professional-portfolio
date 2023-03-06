@@ -13,6 +13,8 @@ N/A
 
 This challenge allowed me to make a professional portfolio. Having this portfolio will allow me to present myself to future potential employers. In this portfolio I included all the the sections that can make me stand out, and land a job.
 
+![challenge-2-readme-screenshot.png](./assets/images/readme-screenshot.png)
+(https://vitafomin.github.io/challenge-2-professional-portfolio/)
 
 ## Credits
 
